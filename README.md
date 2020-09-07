@@ -13,8 +13,8 @@
 
 # Conventional machine learning classifiers
 
-  -conventional_model.py includes five single (LR, kNN, SVM, RF, and XGBoost) conventional models to evaluate the test set independently. The result was compared with DeepDILI result.
-  -deep_dnn.py is a six layer neural network classifier to evaluate the test set. The result was compared with DeepDILI result. 
+  - conventional_model.py includes five single (LR, kNN, SVM, RF, and XGBoost) conventional models to evaluate the test set independently. The result was compared with DeepDILI result.
+  - deep_dnn.py is a six layer neural network classifier to evaluate the test set. The result was compared with DeepDILI result. 
   
 # Best model parameters
-  -best_model.h5 is the DeepDILI parameters file
+  - best_model.h5 is the DeepDILI parameters file
