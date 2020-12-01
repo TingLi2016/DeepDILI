@@ -15,7 +15,7 @@ You can run the bash script(creat_dir.sh) to create directory or built diretorie
 
 **Step 1**: 
 Update the directory of QSAR_year_338_pearson_0.9.csv and important_features_order.csv in the following scripts. 
-* mold2_knn.py 
+- mold2_knn.py 
 * mold2_lr.py
 * mold2_svm.py
 * mold2_rf.py
