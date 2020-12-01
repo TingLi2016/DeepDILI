@@ -3,7 +3,7 @@ This folder includes three conventional Deep Neural Network (DNN) models develop
 
 ### DeepDILI
 This folder includes three DeepDILI models developed from Mold2, Mol2vec and MACCS. In each folder, you can also find the readme.txt file for specific instruction about how to runing the model. 
-#### - Mold2 instruction
+#### ***Mold2 instruction***
 Three major steps to run mold2_DeepDILI:
 0, Create directories to save data
 1, Develop base classifiers;
@@ -15,7 +15,7 @@ You can run the bash script(creat_dir.sh) to create directory or built diretorie
 
 **Step 1**: 
 Update the directory of QSAR_year_338_pearson_0.9.csv and important_features_order.csv in the following scripts. 
-- mold2_knn.py 
+* mold2_knn.py 
 * mold2_lr.py
 * mold2_svm.py
 * mold2_rf.py
