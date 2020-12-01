@@ -1,4 +1,4 @@
-### Three major steps to run mold2_DeepDILI:
+Three major steps to run mold2_DeepDILI:
 0, Create directories to save data
 1, Develop base classifiers;
 2, Collected the probability output from the selected base classifiers;
