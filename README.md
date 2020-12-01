@@ -20,12 +20,14 @@ Update the directory of QSAR_year_338_pearson_0.9.csv and important_features_ord
 - mold2_svm.py
 - mold2_rf.py
 - mold2_xgboost.py
+
 Runing example: python mold2_knn.py test ("test" is a name for your work, it can be any word, make sure it is consistent with all the following runing script)
 
 Step 2:
 Update the directory of combined_score.csv and the directory to collect the output from the base calssifiers in the following scripts.
 -mold2_test_predictions_combine.py
 -mold2_validation_predictions_combine.py 
+
 Runing example: python mold2_test_predictions_combine.py test
 
 Step 3:
@@ -49,12 +51,14 @@ Update the directory of dili_1009_mol2vec.csv and train_index_1009.csv in the fo
 - mol2vec_svm.py
 - mol2vec_rf.py
 - mol2vec_xgboost.py
+
 Runing example: python mol2vec_knn.py test ("test" is a name for your work, it can be any word, make sure it is consistent with all the following runing script)
 
 Step 2:
 Update the directory of selected_mol2vec_mcc.csv and the directory to collect the output from the base calssifiers in the following scripts.
 -mol2vec_test_predictions_combine.py
 -mol2vec_validation_predictions_combine.py 
+
 Runing example: python mol2vec_test_predictions_combine.py test
 
 Step 3:
@@ -78,12 +82,14 @@ Update the directory of dili_1009_maccs.csv and train_index_1009.csv in the foll
 - maccs_svm.py
 - maccs_rf.py
 - maccs_xgboost.py
+
 Runing example: python maccs_knn.py test ("test" is a name for your work, it can be any word, make sure it is consistent with all the following runing script)
 
 Step 2:
 Update the directory of selected_maccs_mcc.csv and the directory to collect the output from the base calssifiers in the following scripts.
 -maccs_test_predictions_combine.py
 -maccs_validation_predictions_combine.py 
+
 Runing example: python maccs_test_predictions_combine.py test
 
 Step 3:
