@@ -34,17 +34,17 @@ Runing example: python mold2_test_predictions_combine.py test
 Update the directory of mold2_best_model.h5, the step 2 results directory and directory to save your predicitons in the mold2_DeepDILI.py. 
 Runing example: python mold2_DeepDILI.py test
 
-#### - Mol2vec instruction
+#### ***Mol2vec instruction***
 Three major steps to run mol2vec_DeepDILI:
 0, Create directories to save data
 1, Develop base classifiers;
 2, Collected the probability output from the selected base classifiers;
 3, Fit into the neural network
 
-Step 0:
+**Step 0**:
 You can refer to the bash script(creat_dir.sh) to create directory or built diretories by yourself.
 
-Step 1: 
+**Step 1**: 
 Update the directory of dili_1009_mol2vec.csv and train_index_1009.csv in the following scripts. 
 - mol2vec_knn.py 
 - mol2vec_lr.py
@@ -54,28 +54,28 @@ Update the directory of dili_1009_mol2vec.csv and train_index_1009.csv in the fo
 
 Runing example: python mol2vec_knn.py test ("test" is a name for your work, it can be any word, make sure it is consistent with all the following runing script)
 
-Step 2:
+**Step 2**:
 Update the directory of selected_mol2vec_mcc.csv and the directory to collect the output from the base calssifiers in the following scripts.
 - mol2vec_test_predictions_combine.py
 - mol2vec_validation_predictions_combine.py 
 
 Runing example: python mol2vec_test_predictions_combine.py test
 
-Step 3:
+**Step 3**:
 Update the directory of mol2vec_best_model.h5, the step 2 results directory and directory to save your predicitons in the mol2vec_DeepDILI.py. 
 Runing example: python mol2vec_DeepDILI.py test
 
-#### - MACCS instruction
+#### ***MACCS instruction***
 Three major steps to run maccs_DeepDILI:
 0, Create directories to save data
 1, Develop base classifiers;
 2, Collected the probability output from the selected base classifiers;
 3, Fit into the neural network
 
-Step 0:
+**Step 0**:
 You can refer to the bash script(creat_dir.sh) to create directory or built diretories by yourself.
 
-Step 1: 
+**Step 1**: 
 Update the directory of dili_1009_maccs.csv and train_index_1009.csv in the following scripts. 
 - maccs_knn.py 
 - maccs_lr.py
@@ -85,14 +85,14 @@ Update the directory of dili_1009_maccs.csv and train_index_1009.csv in the foll
 
 Runing example: python maccs_knn.py test ("test" is a name for your work, it can be any word, make sure it is consistent with all the following runing script)
 
-Step 2:
+**Step 2**:
 Update the directory of selected_maccs_mcc.csv and the directory to collect the output from the base calssifiers in the following scripts.
 - maccs_test_predictions_combine.py
 - maccs_validation_predictions_combine.py 
 
 Runing example: python maccs_test_predictions_combine.py test
 
-Step 3:
+**Step 3**:
 Update the directory of maccs_best_model.h5, the step 2 results directory and directory to save your predicitons in the maccs_DeepDILI.py. 
 Runing example: python maccs_DeepDILI.py test
 
