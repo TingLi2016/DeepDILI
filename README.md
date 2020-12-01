@@ -3,7 +3,7 @@ This folder includes three conventional Deep Neural Network (DNN) models develop
 
 ### DeepDILI
 This folder includes three DeepDILI models developed from Mold2, Mol2vec and MACCS. In each folder, you can also find the readme.txt file for specific instruction about how to runing the model. 
-#### ***Mold2-DeepDILI instruction***
+#### ***Mold2_DeepDILI instruction***
 Three major steps to run mold2_DeepDILI:
 0, Create directories to save data
 1, Develop base classifiers;
@@ -34,7 +34,7 @@ Runing example: python mold2_test_predictions_combine.py test
 Update the directory of mold2_best_model.h5, the step 2 results directory and directory to save your predicitons in the mold2_DeepDILI.py. 
 Runing example: python mold2_DeepDILI.py test
 
-#### ***Mol2vec-DeepDILI instruction***
+#### ***Mol2vec_DeepDILI instruction***
 Three major steps to run mol2vec_DeepDILI:
 0, Create directories to save data
 1, Develop base classifiers;
@@ -65,7 +65,7 @@ Runing example: python mol2vec_test_predictions_combine.py test
 Update the directory of mol2vec_best_model.h5, the step 2 results directory and directory to save your predicitons in the mol2vec_DeepDILI.py. 
 Runing example: python mol2vec_DeepDILI.py test
 
-#### ***MACCS-DeepDILI instruction***
+#### ***MACCS_DeepDILI instruction***
 Three major steps to run maccs_DeepDILI:
 0, Create directories to save data
 1, Develop base classifiers;
