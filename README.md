@@ -3,7 +3,7 @@ This folder includes three conventional Deep Neural Network (DNN) models develop
 
 ### DeepDILI
 This folder includes three DeepDILI models developed from Mold2, Mol2vec and MACCS. In each folder, you can also find the readme.txt file for specific instruction about how to runing the model. 
-#### ***Mold2 instruction***
+#### ***Mold2 instruction - Mold2-DeepDILI***
 Three major steps to run mold2_DeepDILI:
 0, Create directories to save data
 1, Develop base classifiers;
