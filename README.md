@@ -1,20 +1,8 @@
-# DeepDILI
+### conventional_DNN
+This folder includes three conventional Deep Neural Network (DNN) models developed from Mold2, Mol2vec and MACCS. For each conventional dnn model folder, it provides three profiles, including dataset (.csv), conventional dnn model (.h5) and python script (.py). Make sure repalce the file path of the dataset and model according to your directory on the python script.   
 
-  ### Base classifier development
-  - lr.py generates 100 base classifiers with the methods of Logistic Regression (LR)
-  - knn.py generates 100 base classifiers with the methods of kNN
-  - svm.py generates 100 base classifiers with the methods of Support Vector Machine (SVM)
-  - rf.py generates 100 base classifiers with the methods of Random Forest (RF)
-  - xgboost.py generates 100 base classifiers with the methods of eXtreme Gradient Boosting (XGBoost)
+### DeepDILI
+This folder includes three DeepDILI models developed from Mold2, Mol2vec and MACCS. In each folder, we give the readme.txt file for specific instruction about how to runing the model.  
 
-  ### Meta classifier development
-  - meta_classifier_dnn.py is the meta classifier
-
-
-# Conventional machine learning classifiers
-
-  - conventional_model.py includes five single (LR, kNN, SVM, RF, and XGBoost) conventional models to evaluate the test set independently. The result was compared with DeepDILI result.
-  - deep_dnn.py is a six layer neural network classifier to evaluate the test set. The result was compared with DeepDILI result. 
-  
-# Best model parameters
-  - best_model.h5 is the DeepDILI parameters file
+### full_DeepdiLI
+We use the full dataset(1009 compounds) as the training set to develop the DeepDILI model with Mold2. It includes three tables (.csv), one model (.h5), and one python script. Please make sure update the file (.csv and .h5) path on the python script. To screening your interested compounds, please update the test set path with your compounds' Mold2 descriptors.
