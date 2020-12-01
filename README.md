@@ -25,8 +25,8 @@ Runing example: python mold2_knn.py test ("test" is a name for your work, it can
 
 Step 2:
 Update the directory of combined_score.csv and the directory to collect the output from the base calssifiers in the following scripts.
--mold2_test_predictions_combine.py
--mold2_validation_predictions_combine.py 
+- mold2_test_predictions_combine.py
+- mold2_validation_predictions_combine.py 
 
 Runing example: python mold2_test_predictions_combine.py test
 
@@ -56,8 +56,8 @@ Runing example: python mol2vec_knn.py test ("test" is a name for your work, it c
 
 Step 2:
 Update the directory of selected_mol2vec_mcc.csv and the directory to collect the output from the base calssifiers in the following scripts.
--mol2vec_test_predictions_combine.py
--mol2vec_validation_predictions_combine.py 
+- mol2vec_test_predictions_combine.py
+- mol2vec_validation_predictions_combine.py 
 
 Runing example: python mol2vec_test_predictions_combine.py test
 
@@ -87,8 +87,8 @@ Runing example: python maccs_knn.py test ("test" is a name for your work, it can
 
 Step 2:
 Update the directory of selected_maccs_mcc.csv and the directory to collect the output from the base calssifiers in the following scripts.
--maccs_test_predictions_combine.py
--maccs_validation_predictions_combine.py 
+- maccs_test_predictions_combine.py
+- maccs_validation_predictions_combine.py 
 
 Runing example: python maccs_test_predictions_combine.py test
 
