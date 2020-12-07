@@ -45,7 +45,7 @@ Three major steps to run mol2vec_DeepDILI:
 You can refer to the bash script(creat_dir.sh) to create directory or built diretories by yourself.
 
 **Step 1**: 
-Update the directory of dili_1009_mol2vec.csv and train_index_1009.csv in the following scripts. 
+Update the directory of dili_mol2vec.csv and train_index.csv in the following scripts. 
 - mol2vec_knn.py 
 - mol2vec_lr.py
 - mol2vec_svm.py
@@ -76,7 +76,7 @@ Three major steps to run maccs_DeepDILI:
 You can refer to the bash script(creat_dir.sh) to create directory or built diretories by yourself.
 
 **Step 1**: 
-Update the directory of dili_1009_maccs.csv and train_index_1009.csv in the following scripts. 
+Update the directory of dili_maccs.csv and train_index.csv in the following scripts. 
 - maccs_knn.py 
 - maccs_lr.py
 - maccs_svm.py
@@ -98,4 +98,4 @@ Runing example: python maccs_DeepDILI.py test
 
 
 ### Full_DeepDILI
-We use the full dataset(1009 compounds) as the training set to develop the DeepDILI model with Mold2. It includes three tables (.csv), one model (.h5), and one python script. Please make sure update the file (.csv and .h5) path on the python script. To screening your interested compounds, please update the test set path with your compounds' Mold2 descriptors.
+We use the full dataset(1002 compounds) as the training set to develop the DeepDILI model with Mold2. It includes three tables (.csv), one model (.h5), and one python script. Please make sure update the file (.csv and .h5) path on the python script. To screening your interested compounds, please update the test set path with your compounds' Mold2 descriptors.
