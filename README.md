@@ -1,3 +1,6 @@
+### DeepDILI_mold2_simple_version
+This folder includes a simple version of DeepDILI model with Mold2 descriptor. Only the main.py file need to update for the DeepDILI predictions.
+
 ### Conventional_DNN
 This folder includes three conventional Deep Neural Network (DNN) models developed from Mold2, Mol2vec and MACCS. For each conventional dnn model folder, it provides three profiles, including dataset (.csv), conventional dnn model (.h5) and python script (.py). Make sure repalce the file path of the dataset and model according to your directory on the python script.   
 
