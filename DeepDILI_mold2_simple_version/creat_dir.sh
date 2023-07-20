@@ -1,12 +1,12 @@
 #!/bin/bash
-
+# Usage: ./creat_dir.sh [dir path]
 echo "[start]"
 echo `date`
 
 ###build separate directory
 
 
-base_path0='/account/tli/CDER/results/check'
+base_path0=$1
 
 echo "make base classifiers directory"
 mkdir -p $base_path0

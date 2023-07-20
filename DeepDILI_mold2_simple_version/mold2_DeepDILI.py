@@ -37,8 +37,6 @@ from keras.callbacks import Callback, ModelCheckpoint, EarlyStopping
 
 from numpy.random import seed
 seed(1)
-from tensorflow import set_random_seed
-set_random_seed(6)
 
 he_normal = initializers.he_normal()
 
@@ -155,6 +153,6 @@ def dili_prediction(probability_path, var, model_path, result_path):
     reform_result(train_results).to_csv(path3+'/validation_'+col_name2+'.csv')
 
     K.clear_session()
-    tf.reset_default_graph() 
+    tf.compat.v1.reset_default_graph()
 
 print("--- %s seconds ---" % (time.time() - start_time))
