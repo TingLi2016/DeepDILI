@@ -153,6 +153,6 @@ def dili_prediction(probability_path, var, model_path, result_path):
     reform_result(train_results).to_csv(path3+'/validation_'+col_name2+'.csv')
 
     K.clear_session()
-    tf.reset_default_graph() 
+    tf.compat.v1.reset_default_graph()
 
 print("--- %s seconds ---" % (time.time() - start_time))
