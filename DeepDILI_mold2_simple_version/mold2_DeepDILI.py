@@ -37,8 +37,6 @@ from keras.callbacks import Callback, ModelCheckpoint, EarlyStopping
 
 from numpy.random import seed
 seed(1)
-from tensorflow import set_random_seed
-set_random_seed(6)
 
 he_normal = initializers.he_normal()
 
